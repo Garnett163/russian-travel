@@ -1,0 +1,13 @@
+.place__paragrath {
+  margin: 0;
+  margin-bottom: 1.625rem;
+  max-width: 484px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+.place__paragrath:last-of-type {
+  margin: 0;
+}
