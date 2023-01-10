@@ -1,10 +1,30 @@
 .lead__title {
-  margin: 0 auto 2rem;
+  margin: 0 auto 32px;
   max-width: 720px;
   text-align: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  font-size: 6rem;
+  font-size: 96px;
   line-height: 1.04;
+}
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 100%;
+    font-size: calc((100vw - 426px) / (768 - 426) * (96 - 40) + 40px);
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__title {
+    margin-bottom: 16px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
 }

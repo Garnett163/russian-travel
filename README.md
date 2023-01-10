@@ -2,7 +2,7 @@
 
 ### Стэк
 
-- Html
+- HTML
 - CSS
 
 **О проекте**
@@ -15,4 +15,4 @@
 
 ### Ссылка на сайт
 
-- (https://garnett163.github.io/russian-travel/)
+- https://garnett163.github.io/russian-travel/
