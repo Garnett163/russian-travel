@@ -11,12 +11,17 @@
 .place__paragrath:last-of-type {
   margin: 0;
 }
-@media (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .place__paragrath {
-    font-size: calc((100vw - 426px) / (768 - 426) * (18 - 16) + 16px);
+    font-size: calc((100vw - 769px) / (1024 - 769) * (18 - 16) + 16px);
   }
 }
-@media (max-width: 425px) {
+@media screen and (max-width: 768px) {
+  .place__paragrath {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
   .place__paragrath {
     font-size: 16px;
   }
