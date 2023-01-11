@@ -3,11 +3,12 @@
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 460px 1fr;
-  grid-gap: 40px 40px;
+  grid-gap: 48px 40px;
 }
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 48px 32px;
   }
 }
 @media screen and (max-width: 768px) {
