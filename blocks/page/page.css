@@ -11,3 +11,16 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+/* Formule adaptive
+
+Формула для адаптива ширины элемента
+calc (VminWidth px + (разница между MaxWidth и MinWidth *2) * 0.7 ((100% - MaxWidth px/ 1400;))
+
+
+
+@mixin adaptive-size ($directionSize, $mobSize, $pcSize, $multiple, $minSize, $maxSize) {
+     $addSize: $pcSize - $mobSize;
+     $addMinSize: $addSize + $addSize * $multiple;
+     #{$directionSize}: calc(#{$mobSize + px} + # {$addMinSize} * ((100vw - #{$minSize + px}) / #{$maxSize}));
+} */
